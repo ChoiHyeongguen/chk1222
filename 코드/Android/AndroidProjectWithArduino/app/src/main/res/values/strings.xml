@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Smart Safety Zone</string>
+    <string name="announcement_btn_str">공지사항</string>
+    <string name="gallery_btn_str">갤러리</string>
+    <string name="information_btn_str">정보</string>
+    <string name="call_btn_str">신고</string>
+    <string name="chart_btn_str">통계</string>
+    <string name="title_str">성공회대 지킴이</string>
+    <string name="setting_str">설정</string>
+    <string name="ip_address">172.30.35.157</string>
+    <string name="one_call_number">01041122573</string>
+</resources>

@@ -1,0 +1,17 @@
+각각의 클래스 설명
+GalleryActivity-다운 받은 사진들을 월별로 보여주는 갤러리 액티비티
+CustomGalleryAdapter-갤러리를 구성하기 위한 커스텀 갤러리 뷰 
+BoardActivity - 게시판을 보여주는 액티비티, 글 불러오고 글 작성 기능을 담당
+BulletinBoardContentActivity - 게시판의 내용을 보여주는 액티비티
+ListData - 게시판에 필요한 정보들을 저장
+CallActivity - 신고할 수 있는 리스트를 보여주는 액티비티
+ConfirmEmergencyActivity - 아두이노가 사진을 보내면 알림 노티피케이션이 뜨는데 누르면 이 액티비티로 연결됩니다.
+사고 사진을 보여주며 통화버튼을 누르면 원콜 설정된 번호로 전화가 가게 됩니다.
+MainActivity - 메인화면을 보여주는 액티비티, 여기서는 권한설정, 인증과정, 서비스 실행 등의 초기 작업을 진행
+MainService - 소켓서버와 계속 연결을 유지하기 위해 사용, 어플리케이션이 종료되어도 계속 연결을 시도합니다.
+StatisticsActivity - 서버로 부터 월별 사고건수를 받아 파이차트로 보여주는 액티비티
+DetailStatisticsActivity - 월별로 자세한 사고건수를 보여주고 그것을 라인차트로 보여주는 액티비티
+SettingActivity - 어플리케이션의 설정 가능한것을 보여준다. 알람소리, 원콜 번호 설정 등이 가능합니다.
+MadeByActivity - 만든이 정보를 간단하게 보여줍니다.
+
+????

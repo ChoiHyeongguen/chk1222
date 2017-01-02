@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="긴급 전화 설정">
+    <EditTextPreference
+        android:summary="01041122573"
+        android:key="oneCallPhoneNumber"
+        android:defaultValue ="01041122573"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="One Call 번호 설정 (-와 공백없이 입력)" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="알림 설정" >
+
+        <RingtonePreference
+            android:defaultValue="content://settings/system/notification_sound"
+            android:key="ringtone"
+            android:ringtoneType="notification"
+            android:showSilent="true"
+            android:title="알림 소리"
+            android:summary="기본음"
+            android:dialogTitle="Change Sound" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="어플 정보" >
+        <Preference
+            android:summary="개발자 정보를 확인합니다"
+            android:title="개발자 정보" >
+            <intent
+                android:targetClass="com.example.user.androidprojectwitharduino.MadeByActivity"
+                android:targetPackage="com.example.user.androidprojectwitharduino" />
+        </Preference>
+        <Preference
+            android:summary="개발자에게 메일을 보냅니다"
+            android:title="메일 보내기" >
+            <intent
+                android:action="android.intent.action.SENDTO"
+                android:data="mailto:chlgudrms92@naver.com" />
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
